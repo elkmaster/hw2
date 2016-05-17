@@ -5,10 +5,9 @@ class Task1
 
   def run
     negativeSum = 0
-    @arr.map! do |subArr|
-      subArr.map! do |item|
+    @arr.map do |subArr|
+      subArr.map do |item|
         if item<0
-          puts item
           negativeSum+=item
         end
       end
