@@ -1,7 +1,6 @@
 class Task2
-  def initialize()
-    @hash = {'yes' => 23, 'b' => 'travel', 'yesterday' => 34, 5 => '234', :yesss => :fg, try: 30,
-             key: 'some value', 'yesterday1' => 34, 'yesteryear' => 2014}
+  def initialize(h)
+    @hash = h
   end
 
   def run
@@ -9,7 +8,7 @@ class Task2
     @hash.each do |key, val|
       i+=1 if key.to_s.index('yes') == 0
     end
-    puts "there are #{i} keys starts with 'yes'"
+    i
   end
 
   def symb_keys_run

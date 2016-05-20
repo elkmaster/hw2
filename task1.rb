@@ -13,7 +13,7 @@ class Task1
       end
     end
     puts @arr.inspect
-    puts "sum of negative elemets #{negativeSum}"
+    "sum of negative elemets #{negativeSum}"
   end
 
 end
