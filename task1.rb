@@ -1,4 +1,5 @@
 class Task1
+  attr_accessor :arr
   def initialize(w, h)
     @arr = Array.new(h){ Array.new(w){ rand(-10..10) } }
   end
@@ -14,6 +15,7 @@ class Task1
     end
     puts @arr.inspect
     "sum of negative elemets #{negativeSum}"
+    negativeSum
   end
 
 end

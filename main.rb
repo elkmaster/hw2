@@ -12,7 +12,7 @@ require './task3'
 # puts "#{t2.run} keys starts with 'yes'"
 
 # TASK recursive keys to symbols
- puts t2.symb_keys_run
+  puts t2.symb_keys_run
 
 # TASK add new method to String class
 # puts "Fizz|Buzz|Wizz".splitToArray("|").inspect
