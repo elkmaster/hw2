@@ -23,6 +23,7 @@ class Task2
     @hash
   end
 
+  private
   def symb_keys(i)
     if i>=0
       @hash[@keys[i].to_s.to_sym] = @hash.delete(@keys[i])
